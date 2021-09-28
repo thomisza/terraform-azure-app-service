@@ -26,4 +26,5 @@ resource "azurerm_app_service" "main" {
   identity {
     type = "SystemAssigned"
   }
+  
 }
